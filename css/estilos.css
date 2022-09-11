@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.encabezado1{
+    width: 100% ;
+    height: 700px;
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(135, 58%, 47%, 0.575), hsla(180, 59%, 50%, 0.507)),url('../img/FondoPortada.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+   /*  background-size: cover; */
+    position: relative;
+
+}
+.navprim{
+    
+    text-align: right;
+    padding: 50px 50px 0 0;
+}
+.navprim a{
+    color: rgb(26, 36, 128);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav> a:hover{
+    text-decoration: underline;
+}
+.wave{
+    position:absolute;
+    bottom:0;
+    width:100%
+}
+.TextHeader{    
+  position:absolute;
+  top: 50%;
+  left: 30%;
+    
+}
+/* espaciado*/
+
+h2{
+    font-family: 'Sriracha';
+}
+h3{
+    font-family: 'Sriracha';
+}
+h4{
+    font-family: 'Sriracha';
+}
+
+article{
+    font-family: 'MuseoModerno';
+}
+
+
+
+
+.Titulo1{
+    width: 100%;
+    position: fixed;
+    font: 30px;
+    color: #ffffff;
+    /* font-family: 'Krona One'; */
+    background-color: rgba(20, 8, 129, 0.61);
+}
+.Titulo2{
+    color: royalblue;
+    font-size: 50px;
+   /*  font-family: 'Sriracha'; */
+}
+
+
+.Titulo3{
+    text-align: center;
+    /* font-family: 'open sans'; */
+    color: royalblue;
+    font-size: 50px;
+}
+
+.Titulo4{
+
+    position:absolute;
+    top: 0px;
+    left: 40%;
+    /* font-family: sans-serif; */
+    color: royalblue;
+    font-size: 50px;    
+}
+
+
+
+.contPresentacion{
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.imgpres{
+    width: calc(20%-18px);
+    height:calc(20%-18px);
+}
+.contPresentacion .textpres{
+    margin-top: 60px;
+    margin-bottom: 15px;
+
+}
+
+.textpres{
+    font-size: 30px;
+    color: rgb(29, 48, 66);
+    font-family: 'MuseoModerno';
+}
+
+.textpres span{
+    
+    background-color: seagreen  ;
+    color: seagreen;
+    border-radius: 50%;
+    display:inline-block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    
+}
+.contPresentacion p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+/*galeria*/
+.Lugares{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(129, 24%, 54%, 0.911), #bdfa6d, #29b4b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 60px;
+    
+    position: relative;   
+   }
+
+.galeriasitiosturisticos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imglugares{
+    width: 35%;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    overflow:hidden;
+    cursor:pointer;
+    box-shadow : 0 0 6px 0  rgba(0,0,0,.5);
+    position: relative;
+}
+.imglugares > img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:  0;
+    transform:scale(1);
+    background-color: hsla(60, 7%, 79%, 0.274);
+    transition: transform .1s;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hover-galeria img{
+    width: 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.hover-galeria p {
+    color: rgb(23, 56, 167);
+    text-align: center;
+    
+    
+}
+.imglugares:hover .hover-galeria{
+    transform: scale(0);
+}
+/*........................................................................................ */
+/* PÁGINAS SECUNDARIAS*/
+
+.encabezado2{
+    width: 100% ;
+    height: 40px;
+    /* background: #CB356B;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, hsla(135, 58%, 47%, 0.575), hsla(180, 59%, 50%, 0.507)),url('../img/FondoPortada.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+.navsec{
+    
+    text-align: right;
+    padding: 50px 50px 0 0;
+}
+.navsec a{
+    color: rgb(19, 18, 16);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.Infobasic{
+    background-attachment: fixed;
+    
+    background-color: burlywood;
+  
+}
+.contInfo{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.imginfo{
+    width: 40%;
+    
+}
+.imgregsierr{
+    width: 20%;
+    margin-left: 20px;
+}
+
+.imgregcost{
+    width: 30%;
+    height: 15%;
+    margin-left: 20px;
+}
+
+.contInfo .textpressec{
+    font-family:'MuseoModerno';
+    margin-top: 60px;
+    margin-bottom: 15px;
+    
+}
+.textpressec span{
+    position: absolute;
+    left: 20%;
+    /*  background-color: seagreen  ; 
+    color: seagreen; */
+    border-radius: 100px; 
+    display:inline-block;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    
+}
+.contInfo p{
+    font-size: 25px;
+    padding: 0px 0px 15px 15px;
+    font-weight: 50;
+    text-align: justify;
+}
+
+article{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-right: 35px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.TitPlat{
+    font-size: 35px;
+}
+h4{
+    font-size: 25px;
+}
+.imgPlatTip{
+    width: 35%;
+    height:35%;
+    margin-top: 50px;
+}
+.imgSitTur{
+    width: 50%;
+    height: 35%;
+    margin-top: 15px;
+}
+
+footer{
+    
+    height: 250px;
+    background-color: rgba(141, 127, 114, 0.356);
+}
+.Ref{
+    
+    padding: 20px;
+    
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.Ref a{
+    color: rgb(22, 22, 20);
+}
+
+.Video{
+    background-color: burlywood;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+           
+}
+h5{
+    font-size: 25px;
+    
+}
+/* 
+main{
+    background-color: rgba(51, 86, 121, 0.363);
+}
+ */
+.firstpart{
+    background-color: rgba(51, 86, 121, 0.363);
+}
+.secondpart{
+    background-color: rgba(51, 86, 121, 0.363);
+}
+
+.RS{
+    width: 2%;
+}
